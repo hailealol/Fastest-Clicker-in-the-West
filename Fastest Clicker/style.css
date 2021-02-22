@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=RocknRoll+One&display=swap');
+
+*{
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: #be9986;
+}
+
+.container {
+    margin-top: 12%;
+}
+
+#background {
+    height: 500px;
+    width: 800px;
+    position: absolute;
+    z-index: -1;
+    left: 28.5%;
+    border-style: solid;
+    border-width: 10px;
+    border-color: #ffffff;
+}
+
+#logo {
+    font-family: "RocknRoll One";
+    text-decoration: underline;
+}
+
+.game {
+    margin: 40px;
+    font-family: "RocknRoll One";
+}
+
+#highScore {
+    padding-bottom: 20px;
+}
+
+#countdownClock {
+    padding-bottom: 20px;
+}
+
+#playerClicks {
+    padding-bottom: 20px;
+}
+
+h4 {
+    font-size: 20px;
+}
+
+h3 {
+    font-size: 20px;
+}
+
+#timer {
+    border-radius: 50px;
+    outline: none;
+    border: none;
+    background-color: rgb(118, 177, 211);
+    font-family: "RocknRoll One";
+    padding: 5px 60px 5px 60px;
+}
+
+#score {
+    border-radius: 50px;
+    outline: none;
+    border: none;
+    background-color: rgb(118, 177, 211);
+    font-family: "RocknRoll One";
+    padding: 5px 32px 5px 32px;
+}
+
+#reset {
+    border-radius: 50px;
+    outline: none;
+    border: none;
+    background-color: rgb(118, 177, 211);
+    font-family: "RocknRoll One";
+    padding: 5px 58px 5px 58px;
+}
+
+#timer:hover {
+    cursor: pointer;
+    background-color: rgb(93, 155, 190);
+}
+
+#timer:active {
+    transform: translateY(4px);
+}
+
+#score:hover {
+    cursor: not-allowed;
+    background-color: rgb(93, 155, 190);
+}
+
+#score:active {
+    transform: translateY(4px);
+}
+
+#reset:hover {
+    cursor: pointer;
+    background-color: rgb(93, 155, 190);
+}
+
+#reset:active {
+    transform: translateY(4px);
+}
